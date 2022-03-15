@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:cert="http://www.w3.org/ns/auth/cert#"
+         xmlns:dc="http://purl.org/dc/terms/">
+
+  <foaf:PersonalProfileDocument rdf:about="http://localhost/tubesmusik/Data/BestMusic.rdf">
+    <foaf:maker rdf:resource="http://localhost/tubesmusik/Data/"/>
+    <foaf:primaryTopic rdf:resource="http://localhost/tubesmusik/Data/"/>
+  </foaf:PersonalProfileDocument>
+
+   <foaf:musik rdf:about="http://localhost/tubesmusik/Data/#1">
+        <foaf:namaBand>Wali</foaf:namaBand>
+        <foaf:album>Doa'in Ya Penonton</foaf:album>
+        <foaf:vokalis>Zainal Muttaqin</foaf:vokalis>
+        <foaf:judulLagu>Ada Gajah di Balik Batu</foaf:judulLagu>
+        <foaf:rilis>2014</foaf:rilis>
+        <foaf:genre>Pop</foaf:genre>
+        <foaf:durasi>4:53</foaf:durasi>
+        <foaf:yt>https://youtube.com/embed/lcv-R5gVqCs</foaf:yt>
+        <foaf:mp3>1</foaf:mp3>
+        <foaf:cover>https://3.bp.blogspot.com/-MxZPYO8Y9Ic/VGLcs72cN6I/AAAAAAAABy4/LgAnnYVugsA/s1600/Wali%2BAda%2BGajah%2BDi%2BBalik%2BBatu%2BNew%2BRelease.jpg</foaf:cover>
+    </foaf:musik>
+    <foaf:musik rdf:about="http://localhost/tubesmusik/Data/#2">
+        <foaf:namaBand>Peterpan</foaf:namaBand>
+        <foaf:album>Taman Langit</foaf:album>
+        <foaf:vokalis>Ariel</foaf:vokalis>
+        <foaf:judulLagu>Yang Terdalam</foaf:judulLagu>
+        <foaf:rilis>2003</foaf:rilis>
+        <foaf:genre>Pop</foaf:genre>
+        <foaf:durasi>3:23</foaf:durasi>
+        <foaf:yt>https://youtube.com/embed/igaeQ2fJRxE</foaf:yt>
+        <foaf:mp3>2</foaf:mp3>
+        <foaf:cover>https://cf.shopee.com.my/file/6f0ae8f83ea28e89fba9bbaebbd71571</foaf:cover>
+    </foaf:musik>
+    <foaf:musik rdf:about="http://localhost/tubesmusik/Data/#3">
+        <foaf:namaBand>Judika</foaf:namaBand>
+        <foaf:album>Cinta Karena Cinta</foaf:album>
+        <foaf:vokalis>Judika</foaf:vokalis>
+        <foaf:judulLagu>Cinta Karena Cinta</foaf:judulLagu>
+        <foaf:rilis>2020</foaf:rilis>
+        <foaf:genre>Pop</foaf:genre>
+        <foaf:durasi>4:20</foaf:durasi>
+        <foaf:yt>https://youtube.com/embed/FZjk56FfdJY</foaf:yt>
+        <foaf:mp3>3</foaf:mp3>
+        <foaf:cover>https://i1.sndcdn.com/artworks-000559908147-4ei2kg-t500x500.jpg</foaf:cover>
+    </foaf:musik>
+    <foaf:musik rdf:about="http://localhost/tubesmusik/Data/#4">
+        <foaf:namaBand>Ebiet G. Ade</foaf:namaBand>
+        <foaf:album>Aku Ingin Pulang</foaf:album>
+        <foaf:vokalis>Ebiet G. Ade</foaf:vokalis>
+        <foaf:judulLagu>Berita Kepada Kawan</foaf:judulLagu>
+        <foaf:rilis>1996</foaf:rilis>
+        <foaf:genre>Pop</foaf:genre>
+        <foaf:durasi>5:37</foaf:durasi>
+        <foaf:yt>https://youtube.com/embed/Z9h71V36578</foaf:yt>
+        <foaf:mp3>4</foaf:mp3>
+        <foaf:cover>https://c-lml.cdn.smule.com/rs-s92/arr/12/c0/b10de77a-9095-4de9-a81c-e8efaed2ebd9_256.jpg</foaf:cover>
+    </foaf:musik>
+    <foaf:musik rdf:about="http://localhost/tubesmusik/Data/#5">
+        <foaf:namaBand>Lyodra</foaf:namaBand>
+        <foaf:album>Lyodra</foaf:album>
+        <foaf:vokalis>Lyodra Ginting</foaf:vokalis>
+        <foaf:judulLagu>Pesan Terakhir</foaf:judulLagu>
+        <foaf:rilis>2021</foaf:rilis>
+        <foaf:genre>Pop</foaf:genre>
+        <foaf:durasi>4:22</foaf:durasi>
+        <foaf:yt>https://youtube.com/embed/oaFj0lRi3gw</foaf:yt>
+        <foaf:mp3>5</foaf:mp3>
+        <foaf:cover>https://cdn1-production-images-kly.akamaized.net/zoDkp4Dkjnbs2DP_zHb1gzFsGMg=/640x853/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/3512133/original/052081200_1626357498-WhatsApp_Image_2021-07-14_at_1.11.56_PM.jpeg</foaf:cover>
+    </foaf:musik>
+    <foaf:musik rdf:about="http://localhost/tubesmusik/Data/#6">
+        <foaf:namaBand>Tulus</foaf:namaBand>
+        <foaf:album>Monokrom</foaf:album>
+        <foaf:vokalis>Tulus</foaf:vokalis>
+        <foaf:judulLagu>Manusia Kuat</foaf:judulLagu>
+        <foaf:rilis>2016</foaf:rilis>
+        <foaf:genre>Pop</foaf:genre>
+        <foaf:durasi>3:26</foaf:durasi>
+        <foaf:yt>https://youtube.com/embed/f-fEeF12FH4</foaf:yt>
+        <foaf:mp3>6</foaf:mp3>
+        <foaf:cover>https://i.ytimg.com/vi/f-fEeF12FH4/maxresdefault.jpg</foaf:cover>
+    </foaf:musik>
+    <foaf:musik rdf:about="http://localhost/tubesmusik/Data/#7">
+        <foaf:namaBand>GAC</foaf:namaBand>
+        <foaf:album>Stronger</foaf:album>
+        <foaf:vokalis>Gamaliel Tapiheru, Audrey Tapiheru, Cantika Abigail</foaf:vokalis>
+        <foaf:judulLagu>Bahagia</foaf:judulLagu>
+        <foaf:rilis>2015</foaf:rilis>
+        <foaf:genre>Pop, R&amp;B</foaf:genre>
+        <foaf:durasi>3:42</foaf:durasi>
+        <foaf:yt>https://youtube.com/embed/zDHOW9PdQYE</foaf:yt>
+        <foaf:mp3>7</foaf:mp3>
+        <foaf:cover>https://i.ytimg.com/vi/zDHOW9PdQYE/maxresdefault.jpg</foaf:cover>
+    </foaf:musik>
+    <foaf:musik rdf:about="http://localhost/tubesmusik/Data/#8">
+        <foaf:namaBand>Idgitaf</foaf:namaBand>
+        <foaf:album>Takut</foaf:album>
+        <foaf:vokalis>Idgitaf</foaf:vokalis>
+        <foaf:judulLagu>Takut</foaf:judulLagu>
+        <foaf:rilis>2021</foaf:rilis>
+        <foaf:genre>Pop</foaf:genre>
+        <foaf:durasi>5:10</foaf:durasi>
+        <foaf:yt>https://youtube.com/embed/VJ1wfhlyWBw</foaf:yt>
+        <foaf:mp3>8</foaf:mp3>
+        <foaf:cover>https://i.ytimg.com/vi/VJ1wfhlyWBw/maxresdefault.jpg</foaf:cover>
+    </foaf:musik>
+    <foaf:musik rdf:about="http://localhost/tubesmusik/Data/#9">
+        <foaf:namaBand>Zack Tabudlo</foaf:namaBand>
+        <foaf:album>Episode</foaf:album>
+        <foaf:vokalis>Zack Tabudlo</foaf:vokalis>
+        <foaf:judulLagu>Give Me Your Forever</foaf:judulLagu>
+        <foaf:rilis>2021</foaf:rilis>
+        <foaf:genre>Pop</foaf:genre>
+        <foaf:durasi>4:04</foaf:durasi>
+        <foaf:yt>https://youtube.com/embed/5HZ9qeFjhYk</foaf:yt>
+        <foaf:mp3>9</foaf:mp3>
+        <foaf:cover>https://i.ytimg.com/vi/5HZ9qeFjhYk/maxresdefault.jpg</foaf:cover>
+    </foaf:musik>
+    <foaf:musik rdf:about="http://localhost/tubesmusik/Data/#10">
+        <foaf:namaBand>Kotak</foaf:namaBand>
+        <foaf:album>Kotak Kedua</foaf:album>
+        <foaf:vokalis>Kotak</foaf:vokalis>
+        <foaf:judulLagu>Beraksi</foaf:judulLagu>
+        <foaf:rilis>2008</foaf:rilis>
+        <foaf:genre>Rock</foaf:genre>
+        <foaf:durasi>3:37</foaf:durasi>
+        <foaf:yt>https://youtube.com/embed/qAc8fQkiaLM</foaf:yt>
+        <foaf:mp3>10</foaf:mp3>
+        <foaf:cover>https://i.ytimg.com/vi/qAc8fQkiaLM/maxresdefault.jpg</foaf:cover>
+    </foaf:musik>
+</rdf:RDF>

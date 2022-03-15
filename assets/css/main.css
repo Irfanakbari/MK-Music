@@ -1,0 +1,438 @@
+/* font face */
+@font-face {
+  font-family: "Yahei";
+  src: url("../chinese.msyh.ttf");
+}
+
+.nav-link {
+  font-family: "Amatic SC", cursive;
+  font-size: 30px;
+  /* spacing word */
+  letter-spacing: 5px;
+  font-weight: bold !important;
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.nav-item a:hover {
+  color: white !important;
+  font-family: "Amatic SC", cursive;
+  letter-spacing: 5px;
+  font-size: 30px;
+  font-weight: bold !important;
+}
+
+.nav-item {
+  margin: 0 10px;
+}
+
+.active {
+  color: white !important;
+}
+
+.slidertop .onetitle {
+  font-family: YouTube Sans, Roboto, Noto Naskh Arabic UI, Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.onetitle {
+  font-family: YouTube Sans, Roboto, Noto Naskh Arabic UI, Arial, sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: white !important;
+  margin-bottom: 30px !important;
+  margin-top: 40px !important;
+}
+
+.card {
+  border: none !important;
+  background-color: black !important;
+  border-radius: 0 !important;
+  color: white !important;
+}
+
+.ngabtitle {
+  font-family: "Yahei";
+  font-size: 20;
+  font-weight: bold;
+  color: white !important;
+}
+
+.card-title {
+  font-family: "Yahei";
+  font-size: 15px;
+  font-weight: bold;
+  color: white !important;
+}
+
+.card-body {
+  padding-left: 0 !important;
+}
+
+.card p {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.listmusic {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.listmusic ul {
+  width: 50%;
+  list-style: none;
+  padding-left: 0;
+}
+
+.musicview {
+  color: white;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.musicview img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+#loader-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999999;
+}
+
+#loader {
+  display: block;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+
+  border: 3px solid #3498db;
+  z-index: 1500;
+}
+
+#loader:before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  border: 3px solid #e74c3c;
+}
+
+#loader:after {
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+  border: 3px solid #f9c922;
+}
+
+/* change border to transparent and set only border-top to a solid color */
+#loader {
+  -webkit-animation: spin 1.5s linear infinite;
+  animation: spin 1.5s linear infinite;
+  border: 3px solid transparent;
+  border-top-color: #3498db;
+}
+
+#loader:before {
+  -webkit-animation: spin 1.5s linear infinite;
+  animation: spin 1.5s linear infinite;
+  border: 3px solid transparent;
+  border-top-color: #e74c3c;
+}
+
+#loader:after {
+  -webkit-animation: spin 1.5s linear infinite;
+  animation: spin 1.5s linear infinite;
+  border: 3px solid transparent;
+  border-top-color: #f9c922;
+}
+
+#loader {
+  border-radius: 50%;
+}
+
+#loader:before {
+  border-radius: 50%;
+}
+
+#loader:after {
+  border-radius: 50%;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Opera 15+, Safari 3.1+ */
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    transform: rotate(0deg);
+    /* Firefox 16+, IE 10+, Opera */
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+    /* Chrome, Opera 15+, Safari 3.1+ */
+    -ms-transform: rotate(360deg);
+    /* IE 9 */
+    transform: rotate(360deg);
+    /* Firefox 16+, IE 10+, Opera */
+  }
+}
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Opera 15+, Safari 3.1+ */
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    transform: rotate(0deg);
+    /* Firefox 16+, IE 10+, Opera */
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+    /* Chrome, Opera 15+, Safari 3.1+ */
+    -ms-transform: rotate(360deg);
+    /* IE 9 */
+    transform: rotate(360deg);
+    /* Firefox 16+, IE 10+, Opera */
+  }
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("../img/bg2.jpeg");
+  background-size: cover;
+
+  /* Set a specific height */
+  min-height: 470px;
+  margin-bottom: 20px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bestmusic img:hover {
+  cursor: pointer;
+  filter: drop-shadow(0 0 10px #fff);
+}
+
+body {
+  margin: 0;
+}
+
+html,
+body,
+#wrap {
+  height: 100%;
+}
+
+#wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+#content {
+  flex: 1;
+}
+
+#playbar,
+#playbars {
+  height: 3rem;
+  color: white;
+  background: #282424;
+  display: flex;
+  padding: 0 5%;
+}
+
+#playbar #buttons,
+#playbars #buttons {
+  user-select: none;
+}
+
+#playbar #buttons button,
+#playbars #buttons button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: white;
+}
+
+#playbar #buttons button:hover,
+#playbars #buttons button:hover {
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+#playbar #buttons i,
+#playbars #buttons i {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+
+#playbar .progress,
+#playbars .progress {
+  flex: 1;
+}
+
+#playbar .progress,
+#playbars .progress {
+  width: 100%;
+  height: 0.5rem;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 0.25rem;
+  margin: 1.25rem;
+}
+
+#playbar .track .knob,
+#playbars .track .knob {
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background: white;
+  transform: translate(-25%, -25%);
+}
+
+#playbar .track .knob:hover,
+#playbars .track .knob:hover {
+  cursor: pointer;
+}
+
+.musicview:hover {
+  cursor: pointer;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #c62c34;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #fff;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #fff;
+}
+
+/* FLIPCARD */
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  perspective: 1000px;
+  /* Remove this if you don't want the 3D effect */
+}
+
+.flip-card:hover {
+  cursor: pointer;
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card-front img {
+  width: 300px;
+  height: 300px;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: #c62c34;
+  color: white;
+  width: 300px;
+  height: 300px;
+  transform: rotateY(180deg);
+}
+
+.flip-card-back h2,
+.flip-card-back p {
+  /* center */
+  display: flex;
+  margin: 40px auto;
+  justify-content: center;
+  align-items: center;
+}
+
+/* media query */
+@media screen and (max-width: 600px) {
+  .flip-card {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    perspective: 1000px;
+  }
+
+  .flip-card-front img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .flip-card-back {
+    background-color: dodgerblue;
+    color: white;
+    width: 200px;
+    height: 200px;
+    transform: rotateY(180deg);
+  }
+}

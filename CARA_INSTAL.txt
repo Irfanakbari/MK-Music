@@ -1,0 +1,4 @@
+1. jangan Ubah nama folder, biarkan aja tubesmusik, kalo diubah nnti error
+2. Harus ada koneksi internet, karena Bootstrap, GFont, Fontawesome, JQuery,dll make CDN
+
+SALAM HANGAT KELOMPOK 3 :)

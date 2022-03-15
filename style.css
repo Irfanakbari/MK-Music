@@ -1,0 +1,386 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Rancho&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  background: #fff;
+  min-height: 100vh;
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10000;
+  background-color: #fff;
+}
+
+.logo {
+  position: relative;
+  color: #094b65;
+  font-weight: 700;
+  font-size: 3em;
+  text-decoration: none;
+  font-family: "Rancho", cursive;
+}
+
+.container {
+  max-width: 100%;
+  height: 2000px;
+}
+
+.konten1 {
+  height: 400px;
+  width: 100%;
+  background-image: url(gambar/cover.jpg);
+  background-attachment: fixed;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.penjelas {
+  display: grid;
+  grid-template-areas:
+    "ket1"
+    "ket2";
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.ket1 {
+  grid-area: ket1;
+  padding: 10px;
+  margin-top: auto;
+  background-color: rgb(255, 255, 255, 0.6);
+  margin-left: 100px;
+  width: 300px;
+  height: 50px;
+  transform: rotate(6deg);
+}
+
+.ket1 h2 {
+  color: black;
+  text-align: center;
+  font-size: 2.5vh;
+}
+
+.ket2 {
+  grid-area: ket2;
+  padding: 10px;
+  margin-top: 10px;
+  padding-bottom: 40px;
+  background-color: rgba(217, 238, 24, 0.6);
+  margin-left: 100px;
+  max-width: 420px;
+  transform: rotate(-7deg);
+}
+
+.ket2 h2 {
+  color: black;
+  text-align: left;
+  font-size: 2.4vh;
+}
+
+.konten1 .penjelas {
+  position: absolute;
+}
+
+/*untuk bagian about*/
+.about {
+  position: relative;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-rows: minmax(100px, auto);
+  margin: 40px;
+  grid-auto-flow: dense;
+  grid-gap: 10px;
+}
+
+.about .box {
+  color: #fff;
+  display: grid;
+  font-size: 16px;
+  place-items: center;
+  text-align: center;
+  transition: o.5s;
+}
+
+.about .box:hover {
+  cursor: pointer;
+}
+
+.about .box img {
+  margin-top: 5px;
+  position: relative;
+  max-width: 350px;
+  height: 250px;
+  margin-bottom: 10px;
+}
+
+.box p {
+  color: black;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.box h2 {
+  color: black;
+  text-align: center;
+}
+
+.box {
+  border: 3px solid rgba(0, 0, 0, 0.158);
+}
+
+.about .box:nth-child(1) {
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
+.about .box:nth-child(2) {
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
+.about .box:nth-child(3) {
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
+.gugur {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.gugur .set {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+.gugur .set div {
+  position: absolute;
+  display: block;
+}
+
+.gugur .set div:nth-child(1) {
+  left: 20%;
+  animation: animate 15s linear infinite;
+  animation-delay: -7s;
+}
+
+.gugur .set div:nth-child(2) {
+  left: 50%;
+  animation: animate 20s linear infinite;
+  animation-delay: -5s;
+}
+
+.gugur .set div:nth-child(3) {
+  left: 70%;
+  animation: animate 20s linear infinite;
+  animation-delay: 0s;
+}
+
+.gugur .set div:nth-child(4) {
+  left: 0%;
+  animation: animate 15s linear infinite;
+  animation-delay: -5s;
+}
+
+.gugur .set div:nth-child(5) {
+  left: 85%;
+  animation: animate 18s linear infinite;
+  animation-delay: -10s;
+}
+
+.gugur .set div:nth-child(6) {
+  left: 0%;
+  animation: animate 12s linear infinite;
+}
+.gugur .set div:nth-child(7) {
+  left: 15%;
+  animation: animate 14s linear infinite;
+  animation-delay: -10s;
+}
+
+.gugur .set div:nth-child(8) {
+  left: 60%;
+  animation: animate 15s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+    top: -10%;
+    transform: translateX(20px) rotate(0deg);
+  }
+  10% {
+    opacity: 1;
+  }
+  20% {
+    transform: translateX(-20px) rotate(45deg);
+  }
+  40% {
+    transform: translateX(-20px) rotate(90deg);
+  }
+  60% {
+    transform: translateX(20px) rotate(180deg);
+  }
+  80% {
+    transform: translateX(-20px) rotate(180deg);
+  }
+  100% {
+    top: 110%;
+    transform: translateX(-20px) rotate(225deg);
+  }
+}
+
+.set2 {
+  transform: scale(2) rotate(180deg);
+  filter: blur(2px);
+}
+
+.set3 {
+  transform: scale(2) rotate(180deg);
+  filter: blur(4px);
+}
+
+/*footer*/
+
+.yok {
+  max-width: 100%;
+  margin: auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+ul {
+  list-style: none;
+}
+.footer {
+  background-color: #24262b;
+  padding: 70px 0;
+}
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+}
+.footer-col h4 {
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col h4::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.footer-col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover {
+  color: #ffffff;
+  padding-left: 8px;
+}
+.footer-col .social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover {
+  color: #24262b;
+  background-color: #ffffff;
+}
+
+/*responsiv*/
+@media (max-width: 767px) {
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+
+  .gugur {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+  @media (max-width: 574px) {
+    .footer-col {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  #header ul {
+    padding: 0;
+    width: 110px;
+  }
+
+  .ket1 {
+    margin-left: 30px;
+  }
+
+  .ket2 {
+    margin-left: 30px;
+  }
+}

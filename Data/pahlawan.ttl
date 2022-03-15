@@ -1,0 +1,95 @@
+#filename: pahlawan.ttl
+
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix dbp: <http://dbpedia.org/property/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@base  <http://dbpedia.org/page/>.
+
+
+<Abdul_Haris_Nasution>  dbp:name "Abdul Haris Nasution" ;
+                        dc:birthPlace "Sumatera Utara" ;
+                        dc:birthDate "1918-12-03".
+								
+<Gatot_Soebroto>       	dbp:name "Gatot Soebroto" ;
+						dc:birthPlace "Jawa Tengah" ;
+						dc:birthDate "1907-10-10".
+								
+<Tuanku_Imam_Bonjol>    dbp:name "Tuanku Imam Bonjol" ;
+                        dc:birthPlace "Bonjol" ;
+                        dc:birthDate "1772".
+								
+<Ismail_Marzuki>       	dbp:name "Ismail Marzuki" ;
+                        dc:birthPlace "Batavia" ;
+                        dc:birthDate "1914-11-05".
+
+<Djamin_Ginting>       	dbp:name "Djamin Ginting" ;
+                        dc:birthPlace "Tiga Panah, Karo, Sumatera Utara" ;
+                        dc:birthDate "1921-01-12".
+						
+<Ki_Hadjar_Dewantara>   dbp:name "Ki Hadjar Dewantara" ;
+                        dc:birthPlace "Hindia Belanda" ;
+                        dc:birthDate "1889-05-02".
+
+<Mohammad_Hatta>   		dbp:name "Mohammad Hatta" ;
+                        dc:birthPlace "Fort de Kock, Hindia Belanda, Sumatera Barat" ;
+                        dc:birthDate "1902-08-12".
+
+<Mohammad_Husni_Thamrin>dbp:name "Mohammad Husni Thamrin" ;
+                        dc:birthPlace "Weltevreden, Batavia, Hindia Belanda" ;
+                        dc:birthDate "1894-02-16".		
+						
+<Moestopo>				dbp:name "Moestopo" ;
+                        dc:birthPlace "Ngadiluwih, Kediri, Jawa Timur" ;
+                        dc:birthDate "1913-06-13".
+
+<Pattimura>				dbp:name "Pattimura" ;
+                        dc:birthPlace "Maluku" ;
+                        dc:birthDate "1783-06-08".	
+
+<Sisingamangaraja_XII>	dbp:name "Sisingamangaraja XII" ;
+                        dc:birthPlace "Sumatera Utara" ;
+                        dc:birthDate "1845-02-18".								
+						
+<Cut_Nyak_Dhien>		dbp:name "Cut Nyak Dhien" ;
+                        dc:birthPlace "Aceh" ;
+                        dc:birthDate "1848".	
+
+<Sutomo>				dbp:name "Sutomo" ;
+                        dc:birthPlace "Jawa Timur" ;
+                        dc:birthDate "1920-10-03 ".
+
+<Kartini>				dbp:name "Kartini" ;
+                        dc:birthPlace "Jepara" ;
+                        dc:birthDate "1879-04-21".
+						
+<Mohammad_Natsir>		dbp:name "Mohammad Natsir" ;
+                        dc:birthPlace "Alahan Panjang, Lembah Gumanti, Solok, Sumatera Barat" ;
+                        dc:birthDate "1908-07-17".
+
+<Mohammad_Yamin>		dbp:name "Mohammad Yamin" ;
+                        dc:birthPlace "Kota Sawahlunto, Sumatera Barat" ;
+                        dc:birthDate "1903-08-24".
+
+<Sukarno>				dbp:name "Sukarno" ;
+                        dc:birthPlace "Soerabaja, Hindia Belanda" ;
+                        dc:birthDate "1901-06-06".
+						
+<Teuku_Umar>			dbp:name "Teuku Umar" ;
+                        dc:birthPlace "Kota Meulaboh, Aceh" ;
+                        dc:birthDate "1854".
+
+<Untung_Suropati>		dbp:name "Untung Suropati" ;
+                        dc:birthPlace "Kerajaan Gelgel, Bali" ;
+                        dc:birthDate "1660".			
+
+<Sutan_Syahrir>			dbp:name "Sutan Syahrir" ;
+                        dc:birthPlace "Kota Padang Panjang, Sumatera Barat" ;
+                        dc:birthDate "1909-03-05".
+
+<Soedirman>				dbp:name "Soedirman" ;
+                        dc:birthPlace "Purbalingga, Jawa Tengah" ;
+                        dc:birthDate "1916-01-24".								
+
+<Ernest_Douwes_Dekker>	dbp:name "Ernest Douwes Dekker" ;
+                        dc:birthPlace "Kota Pasuruan" ;
+                        dc:birthDate "1879-10-08".	
